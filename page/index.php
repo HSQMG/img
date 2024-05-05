@@ -76,7 +76,7 @@ if (mysqli_stmt_prepare($stmt_select, $sql_select)) {
 <body>
   <div class="container-fluid">
     <div class="row">
-      <!-- Sidebar -->
+      
       <div class="bg-white sidebar d-flex flex-column  fs-8rem col-md-1">
         <div class="text-center">
           <ul class="nav nav-pills flex-column mt-5">
@@ -101,7 +101,7 @@ if (mysqli_stmt_prepare($stmt_select, $sql_select)) {
           </ul>
         </div>
       </div>
-      <!-- Main Content Container -->
+    
       <div class="container col-md-11  ">
         
         <h1>Image Search</h1>
@@ -112,7 +112,7 @@ if (mysqli_stmt_prepare($stmt_select, $sql_select)) {
         </form>
         <hr>  
 
-        <!-- Display search result image and text if available -->
+        
         <div class="d-flex justify-content-center align-items-center vh-100">
         <?php if (isset($image_path)) : ?>
             <?php if (isset($search_query)) : ?>
