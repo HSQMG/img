@@ -6,9 +6,12 @@
 }
 
 body {
-  background-color: #39297b;
-  color: #fff;
-
+  color: #000000;
+  background-image: url('../images/anh.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed;
 }
 
 h1 {
