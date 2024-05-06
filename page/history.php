@@ -33,7 +33,6 @@ if (isset($_GET["delete"])) {
     $row_image = mysqli_fetch_assoc($result_select_image);
     $image_path = $row_image["image_path"];
 
-    // Xóa tệp ảnh từ thư mục
     if (file_exists($image_path)) {
       unlink($image_path);
     }
